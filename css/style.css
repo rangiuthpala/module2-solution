@@ -1,0 +1,90 @@
+*{
+    font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+}
+
+.main_topic{
+    text-align: center;
+    margin: 40px 0;
+}
+
+    .continer{
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box{
+        border: 5px solid black;
+        padding: 15px;
+        background-color: #b1b7bd;
+        position: relative;
+    }
+    .medium-4{
+     width: 33%;
+     float: left;
+     padding-right: 15px;
+    padding-left: 15px;
+    margin: 10px 0;
+    }
+
+   
+.chicken_box .chicken_badge{
+    clear: both;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: #e599c3;
+    padding: 5px 24px;
+    border: 5px solid black;
+}
+
+ .box-content{
+    margin-top: 30px;
+}
+
+.beef_badge{
+    clear: both;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color: #d53e4c;
+    padding: 5px 24px;
+    border: 5px solid black;
+}
+
+.sushi_badge{
+    clear: both;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    background-color:#f3edb6;
+    padding: 5px 24px;
+    border: 5px solid black;
+}
+
+
+@media only screen and (max-width: 920px) {
+    .small-4{
+        width: 50%;
+       }
+       .medium-4.last{
+        flex-basis: 100%;
+    }
+    
+}
+
+@media only screen and (max-width: 767px) {
+    .extrasmall-4{
+        width: 100%;
+       }
+    }
+    
+}
